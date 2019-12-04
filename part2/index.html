@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<script src="./src/app.js"></script>
+</head>
+<body>
+	<div>
+		<div id="displayNotes"></div>
+		<button onclick="buddy.selectNotes()">Get random notes</button>
+	<br>
+	<br>
+		<div id="displayAnswer"></div>
+		<input id="answer" type="number" placeholder="write answer here" required>
+		<br>
+		<button onclick="buddy.checkAnswer()">Submit Answer</button>
+	</div>
+
+	<script type="text/javascript">
+		let buddy = new JamBuddy();
+
+	</script>
+</body>
+</html>
